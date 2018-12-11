@@ -1,0 +1,74 @@
+body {
+  background: #fffeed;
+  color: #a94404;
+}
+
+#userstories {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+#testui {
+  margin-left: 5%;
+}
+
+[text] {
+  width: 100%;
+  
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox]+span {
+  display: inline-block;
+  width: 20px; 
+  height: 20px;
+  margin-bottom: -6px;
+  background: white;
+  border: brown 1px solid;
+  border-radius: 3px;
+}
+
+input[type=checkbox]:checked+span {
+  background: url('https://cdn.glitch.com/2188ce6d-32bd-42db-aa10-261eb698dab0%2F250-2505213_check-icon-orange-check-orange-icon-png.jpg?1544471924472') center center no-repeat, lime;
+  background-size: 20px 20px;
+  border-color: coral;
+}
+
+input[type=text], button {
+  color: #761101;
+  border: 2px ridge #a94404;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: #761101 1px 1px 8px 0px;
+  background: #eeee88;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #eeee44;
+}
+
+button:active {
+  background: #eeee11;
+  box-shadow: none;
+}
+
+h2 {
+  text-align: left;
+}
+
+hr {
+  margin: 50px;
+}
+
+hr:last-of-type {
+  margin-top: 200px;
+}
